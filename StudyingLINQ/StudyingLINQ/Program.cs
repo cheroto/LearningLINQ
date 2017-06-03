@@ -10,7 +10,7 @@ namespace StudyingLINQ
     {
         static void Main(string[] args)
         {
-            new IEnumerableApplications().TestCountExtension();
+            new LambdaExpressionApplications().SortStartingWithM();
         }
     }
 }

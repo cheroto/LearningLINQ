@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-//using System.Linq;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,10 +8,10 @@ namespace StudyingLINQ
 {
     class IEnumerableApplications
     {
-        //Creation of Static Array
+        //Creation of Array
         public IEnumerable<string> nameArray = new string[]{ "Pedro", "Mario", "Guilherme", "Marcos", "Mariana", "Julia" };
 
-        //Creation of Static List
+        //Creation of List
         public IEnumerable<string> nameList = new List<string>{ "Pedro", "Mario", "Guilherme", "Marcos", "Mariana", "Julia" };
 
         //Print Array
@@ -43,19 +43,19 @@ namespace StudyingLINQ
 
         public void TestImplementation()
         {
-            var IA = new IEnumerableApplications();
-            IA.PrintArray();
+            var ia = new IEnumerableApplications();
+            ia.PrintArray();
             Console.WriteLine("********");
-            IA.PrintList();
+            ia.PrintList();
             Console.WriteLine("********");
-            IA.PrintIEnumerable(nameList);
+            ia.PrintIEnumerable(nameList);
             Console.WriteLine("********");
-            IA.PrintIEnumerable(nameArray);
+            ia.PrintIEnumerable(nameArray);
         }
 
         public void TestCountExtension()
         {
-            var IA = new IEnumerableApplications();
+            var ia = new IEnumerableApplications();
             var listCount = nameList.Count();
             Console.WriteLine("Number of items in list: {0:D}", listCount);
         }

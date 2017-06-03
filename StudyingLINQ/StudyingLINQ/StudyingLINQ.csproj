@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="IEnumerableApplications.cs" />
     <Compile Include="IEnumerableExtension.cs" />
+    <Compile Include="LambdaExpressionApplications.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
