@@ -10,6 +10,7 @@ namespace StudyingLINQ
     {
         static void Main(string[] args)
         {
+            new IEnumerableApplications().TestImplementation();
         }
     }
 }
