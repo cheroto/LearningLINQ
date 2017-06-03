@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
+//using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -51,6 +51,13 @@ namespace StudyingLINQ
             IA.PrintIEnumerable(nameList);
             Console.WriteLine("********");
             IA.PrintIEnumerable(nameArray);
+        }
+
+        public void TestCountExtension()
+        {
+            var IA = new IEnumerableApplications();
+            var listCount = nameList.Count();
+            Console.WriteLine("Number of items in list: {0:D}", listCount);
         }
     }
 }
