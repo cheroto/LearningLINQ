@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyingLINQ", "StudyingLINQ\StudyingLINQ.csproj", "{314D20B0-A9F0-4264-9DD4-6225A03CC94D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cars", "Cars\Cars.csproj", "{113F3B5A-3338-46EA-BB2E-13B9B9372323}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{314D20B0-A9F0-4264-9DD4-6225A03CC94D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{314D20B0-A9F0-4264-9DD4-6225A03CC94D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{314D20B0-A9F0-4264-9DD4-6225A03CC94D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{113F3B5A-3338-46EA-BB2E-13B9B9372323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{113F3B5A-3338-46EA-BB2E-13B9B9372323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{113F3B5A-3338-46EA-BB2E-13B9B9372323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{113F3B5A-3338-46EA-BB2E-13B9B9372323}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
